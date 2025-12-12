@@ -2,7 +2,7 @@
 
 > Modern, responsive full-stack developer portfolio built with React, TypeScript, and Tailwind CSS.
 
-![Portfolio Preview](https://via.placeholder.com/800x400/1a1a2e/ffffff?text=Noxium+Portfolio)
+![Portfolio Preview](./screenshots/portfolio-preview.png)
 
 ## ✨ Features
 
