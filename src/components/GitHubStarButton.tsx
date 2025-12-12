@@ -17,7 +17,7 @@ export function GitHubStarButton() {
   useEffect(() => {
     const fetchStars = async () => {
       try {
-        const response = await fetch('https://api.github.com/repos/noxium-dev/freelance-portfolio', {
+        const response = await fetch('https://api.github.com/repos/noxium-dev/Noxium', {
           headers: {
             'Authorization': `Bearer ${GITHUB_TOKEN}`,
             'Accept': 'application/vnd.github.v3+json',
@@ -31,12 +31,12 @@ export function GitHubStarButton() {
         } else {
           // Fallback if repo doesn't exist or is private
           setStars(0);
-          setRepoUrl('https://github.com/noxium-dev');
+          setRepoUrl('https://github.com/noxium-dev/Noxium');
         }
       } catch (error) {
         console.error('Failed to fetch GitHub stars:', error);
         setStars(0);
-        setRepoUrl('https://github.com/noxium-dev');
+        setRepoUrl('https://github.com/noxium-dev/Noxium');
       } finally {
         setLoading(false);
       }
@@ -73,7 +73,7 @@ export function GitHubStarButton() {
         asChild
       >
         <a
-          href="https://github.com/noxium-dev"
+          href="https://github.com/noxium-dev/Noxium"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2"
