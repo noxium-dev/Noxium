@@ -47,8 +47,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/noxium-dev/portfolio.git
-   cd portfolio
+   git clone https://github.com/noxium-dev/Noxium.git
+   cd Noxium
    ```
 
 2. **Install dependencies**
