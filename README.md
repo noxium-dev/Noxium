@@ -136,6 +136,34 @@ npm run setup:db     # Setup database tables
 - **Desktop**: Full-featured experience with animations
 - **4K**: Scales beautifully on large displays
 
+## 🌐 Deployment
+
+### Cloudflare Pages (Recommended)
+
+1. **Connect Repository**
+   - Go to [Cloudflare Pages](https://pages.cloudflare.com)
+   - Connect your GitHub repository: `noxium-dev/Noxium`
+
+2. **Build Settings**
+   ```
+   Framework: Vite
+   Build command: npm run build
+   Build output: dist
+   ```
+
+3. **Environment Variables**
+   ```
+   VITE_SUPABASE_URL=your_supabase_url
+   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+   VITE_GITHUB_TOKEN=your_github_token
+   ```
+
+4. **Deploy**
+   - Automatic deployment on every push to main
+   - Live at: `https://your-project.pages.dev`
+
+See [DEPLOYMENT.md](./docs/DEPLOYMENT.md) for detailed deployment guide.
+
 ## 🔒 License
 
 © 2024 Noxium. All rights reserved.
