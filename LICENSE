@@ -1,0 +1,30 @@
+Copyright (c) 2024 Noxium
+
+All rights reserved.
+
+This software and associated documentation files (the "Software") are the 
+exclusive property of Noxium. 
+
+RESTRICTIONS:
+- You may view this code for educational and reference purposes only
+- You may NOT use, copy, modify, merge, publish, distribute, sublicense, 
+  and/or sell copies of the Software
+- You may NOT create derivative works based on this Software
+- You may NOT remove or alter any copyright notices
+
+PERMISSIONS:
+- You may fork this repository for personal learning (not for deployment)
+- You may reference implementation patterns in your own original work
+- You may study the code structure and techniques used
+
+DISCLAIMER:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+SOFTWARE.
+
+For licensing inquiries or permissions beyond the scope of this license, 
+please contact: noxiumdev@proton.me
